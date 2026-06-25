@@ -1,17 +1,15 @@
-# Rice
+# Sushi Rice
   - 1 cup rice
   - 1.75 cups water
 
 ---
 
-
-Brown rice
+# Brown rice
   - 1 cup rice
   - 2 cups water
 
 --- 
 
-
-Mixed rice
+# Mixed rice
   - 1 cup rice
   - 2 cups water
