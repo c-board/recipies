@@ -1,4 +1,5 @@
-# Mom and I recipe
+# Smoked & Mashed
+
 	- slow smoke the potatoes
 	- mash them lightly
 	- add pickled onions

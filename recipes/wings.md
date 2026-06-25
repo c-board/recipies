@@ -1,4 +1,5 @@
-### coating
+# Wings
+
 - flour
 - franks wing powdered seasoning
 - red pepper flakes (optional)
