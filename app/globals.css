@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+.recipe-prose {
+  line-height: 1.7;
+}
+
+.recipe-prose h1,
+.recipe-prose h2,
+.recipe-prose h3 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.recipe-prose h1 {
+  font-size: 1.5rem;
+}
+
+.recipe-prose h2 {
+  font-size: 1.25rem;
+}
+
+.recipe-prose h3 {
+  font-size: 1.125rem;
+}
+
+.recipe-prose p,
+.recipe-prose ul,
+.recipe-prose ol {
+  margin-bottom: 1em;
+}
+
+.recipe-prose ul,
+.recipe-prose ol {
+  padding-left: 1.5em;
+}
+
+.recipe-prose ul {
+  list-style-type: disc;
+}
+
+.recipe-prose ol {
+  list-style-type: decimal;
+}
+
+.recipe-prose li {
+  margin-bottom: 0.25em;
+}
+
+.recipe-prose a {
+  color: #2563eb;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.recipe-prose a:hover {
+  color: #1d4ed8;
+}
+
+@media (prefers-color-scheme: dark) {
+  .recipe-prose a {
+    color: #60a5fa;
+  }
+
+  .recipe-prose a:hover {
+    color: #93bbfd;
+  }
+}
