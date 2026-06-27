@@ -1,4 +1,4 @@
-# Jerky Recipe
+# Green Bean Recipe
 
 - cook green beans most of the way
 - mince garlic and start to fry it
